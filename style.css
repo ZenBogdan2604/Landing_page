@@ -1,0 +1,180 @@
+nav{
+    position: relative;
+    z-index: 3;
+    color: white;
+    top: 30px;
+    margin: 0px 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+li {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    height: 50px;
+   }
+
+.navHeader{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+}
+.regHeader{
+    display: flex;
+    align-items: center;
+}
+.imgHeader{
+    position: absolute;
+    z-index: -1;
+}
+.contentHeader{
+    width: 50%;
+    position: relative;
+    z-index: 3;
+    top: 350px;
+    left: 650px;   
+}
+.rectangle{
+    background: #FBD784;
+    width: 72px;
+    height: 2px;
+}
+.contentLogo{
+    display: flex;
+    align-items: center;
+}
+.contentLogoText{
+    font-family: 'Roboto', sans-serif;
+    color: #FBD784;
+    margin-left: 30px;
+}
+.contentText{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+font-weight: 600;
+font-size: 88px;
+line-height: 100px;
+
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.gradient{
+    z-index: -1;
+    position: relative;
+    top: 600px;
+    width: 100%;
+}
+.content{
+    padding: 50px;
+    color: white;
+    display: flex;
+    background: #0B1D26;
+}
+.mainSection{
+    margin-top: 450px;
+    background-color: #0B1D26;
+}
+.logoNumber{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+font-size: 240px;
+line-height: 240px;
+top: -120px;
+left: 85px;
+color: #FFFFFF;
+opacity: 0.1;
+    position: relative;
+    z-index: 2;
+}
+.descContent{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.FootContent{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.contentDesc{
+    font-family: 'Roboto', sans-serif;
+}
+.footerText{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+.footerLi{
+    position: relative;
+    top: -85px;
+    left: 800px;
+}
+.li{
+    font-family: 'Roboto', sans-serif;
+    color: #FBD784;
+}
+.liFooter{
+    position: relative;
+    top: -315px;
+    left: 300px;
+}
+.Copy{
+    position: relative;
+    top: 200px;
+}
+@media (max-width: 1000px) {
+    .contentHeader{
+        position: relative;
+        top: 300px;
+        left: 400px;
+    }
+    .contentText{
+        position: relative;
+        left: -130px;
+        font-size: 60px;
+    }
+    .descContent{
+        position: relative;
+        left: -130px;
+    }
+    .contentLogoText{
+        position: relative;
+        left: -130px;
+    }
+    .rectangle{
+        position: relative;
+        left: -130px;
+    }
+    .gradient{
+        z-index: -1;
+        position: relative;
+        top: 200px;
+        width: 100%;
+    }
+    .allMain{
+        position: relative;
+        top: -260px;   
+    }
+    .mainImg{
+        position: relative;
+        width: 290px;
+        top: 100px;
+    }
+    .allFooter{
+        position: relative;
+        top: -260px;
+    }
+    .footerLi{
+        position: relative;
+        width: 200px;
+        height: 300px;
+        left: 300px;
+    }
+}
